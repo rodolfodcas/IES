@@ -10,13 +10,16 @@
         <meta name="author" content="Rodolfo Dominguez">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
-        <link rel="icon" type="img/png" href="iesbarra.png">
+        <link rel="icon" type="img/png" href="Imagenes/logo.png">
+        <link rel="stylesheet" type="text/css" href="pop_up.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
         <title>IESAC</title>
     </head>
 
     <body>
         
-        <nav class="navbar navbar-expand-lg navbar-light bd-light">
+        <nav class="navbar navbar-expand-lg navbar-light" id="fondonab">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="iesbarra.png" alt="IES AC" width="70" height="65">
@@ -29,15 +32,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html" id="url">INICIO</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="url">INSTITUCIÓN</a></li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#" id="url">OFERTA ACADÉMICA</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="url">¿SI NO ENTRE A BUAP?</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
-                            MÁS SERVICIOS
-                        </a>
+                            MÁS SERVICIOS</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">ADMISIONES</a></li>
                             <li><hr class="dropdown-divider"></li>
@@ -47,25 +47,21 @@
                         </ul>
                     </li>
                 </ul>
-                <!--<form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>-->
             </div>
             </div>
         </nav>
 
-        <div class="container">
-            <p>
-                <img src="Imagenes/incorpirado.png" alt="INCORPORADO A LA BUAP" style="background-color:darkblue;" width="100%">
-            </p>
+        <div class="">
+            <div class="">
+                <img src="Imagenes/incorporado.png" width="100%">
+            </div>
+            <div>
+                <img src="Imagenes/barra-instituto.png" width="100%">
+            </div>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="Imagenes/nuevoingreso.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Imagenes/incorporado.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="Imagenes/becas.jpg" class="d-block w-100" alt="...">
@@ -82,48 +78,38 @@
             </div>
         </div>
         <br>
-
+        <div id="insti">
+            <h1>INSTITUCIÓN</h1>
+        </div><br>
         <div class="container" >
             <div class="grid-container" id="valores">
                 <div class="grid-item">
                     <picture>
-                    <a href="#">
+                    <a href="institución.html">
                         <img src="Iconos/filosofia.png">
                     </a>
                     </picture>
-                    <figcaption>
-                        FILOSOFÍA
-                    </figcaption>
                 </div>
                 <div class="grid-item">
                     <picture>
-                    <a>
+                    <a href="institución.html">
                         <img src="Iconos/vision.png">
                     </a>
                     </picture>
-                    <figcaption>
-                        VISIÓN
-                    </figcaption>
                 </div>
                 <div class="grid-item">
                     <picture>
-                        <a>
+                        <a href="institución.html">
                             <img src="Iconos/mision.png">
                         </a>
                     </picture>
-                    <figcaption>
-                        MISIÓN
-                    </figcaption>
                 </div>
                 <div class="grid-item">
                     <picture>
-                        <a>
+                        <a href="institución.html">
                             <img src="Iconos/valores.png">
                         </a>
                     </picture>
-                    <figcaption>
-                        VALORES
-                    </figcaption>
                 </div>
             </div>
         </div>
@@ -131,41 +117,41 @@
         <div class="container">
             <div class="grid-container" id="grids">
                 <div class="grid-item">
-                    <a href="#">
+                    <a>
                         <img src="Imagenes/comunicación.png" id="grd-itm">
                     </a>
                 </div>
                 <div class="grid-item">
-                    <a href="#">
+                    <a>
                         <img src="Imagenes/diseñog.png" id="grd-itm">
                     </a>
                 </div>
                 <div class="grid-item">
-                    <a href="#">
+                    <a>
                         <img src="Imagenes/arquitectura.png" id="grd-itm">
                     </a>
                 </div>
                 <div class="grid-item">
-                    <a href="#">
+                    <a>
                         <img src="Imagenes/ingec.png" id="grd-itm">
                     </a>
                 </div>
                 <div class="grid-item">
-                    <a href="#">
+                    <a>
                         <img src="Imagenes/ingein.png" id="grd-itm">
                     </a>
                 </div>
                 <div class="grid-item">
-                    <a href="#">
+                    <a>
                         <img src="Imagenes/icc.png" id="grd-itm">
                     </a>
                 </div>
             </div>
         </div> <br>
 
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="text-center text-lg-start" style="background-color: whitesmoke">
         <div class="container p-4"><div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0" id="url">
                 <h5 class="text-uppercase">DIRECCIÓN</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -176,7 +162,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="url">
                 <h5 class="text-uppercase">Teléfonos</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -191,14 +177,14 @@
             <h5 class="text-uppercase">CORREO ELECTRÓNICO</h5>
             <ul class="list-unstyled">
                 <li>
-                    <a href="mailto:contacto@iesac.edu.mx" class="text-dark">Envíanos un correo</a>
+                    <a href="mailto:contacto@iesac.edu.mx" style="color: black;">Envíanos un correo</a>
                 </li>
             </ul>
         </div>
     </div>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             &copy; 2021 Derechos Reservados:
-            <a class="text-dark" href="index.html">INSTITUTO DE ESTUDIOS SUPERIORES</a>
+            <a href="index.html" id="url">INSTITUTO DE ESTUDIOS SUPERIORES</a>
         </div>
     </footer>
 
