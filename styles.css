@@ -56,7 +56,31 @@ img{
     }
 
     #grd-itm{
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
     }
 }
+
+/*@media screen and (max-width: 500px){
+    #t-img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #valores{
+        grid-template-columns: auto auto;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+
+    #grids{
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+    }
+
+    #grd-itm{
+        width: 250px;
+        height: 125px;
+    }
+}*/
