@@ -54,4 +54,9 @@ img{
         grid-template-columns: auto;
         grid-row-gap: 25px;
     }
+
+    #grd-itm{
+        width: 400px;
+        height: 200px;
+    }
 }
