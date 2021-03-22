@@ -2,11 +2,17 @@
     color: black;
 }
 
-img{
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+#urlf{
+    color: white;
+}
+
+#insti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+    text-decoration: underline;
+    font-family: monospace;
 }
 
 .card{
@@ -32,9 +38,34 @@ img{
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+}
+
+#ofertimg{
+    width: 400px;
+}
+
+#insti-grids{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-auto-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-row-gap: 25px;
+}
+
+#ofertas{
+    background-color: rgb(5, 5, 71);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#ofertast{
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 @media screen and (max-width: 600px){
@@ -53,15 +84,33 @@ img{
         display: grid;
         grid-template-columns: auto;
         grid-row-gap: 25px;
+        align-items: center;
+        justify-content: center;
     }
 
     #grd-itm{
-        width: 350px;
-        height: 175px;
+        width: 400px !important;
+        height: 190px !important;
+    }
+
+    #insti-grids{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-auto-columns: auto;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+    }
+
+    #ofertas{
+        background-color: rgb(5, 5, 71);
+        border-radius: 0px;
+        padding: 8px;
     }
 }
 
-/*@media screen and (max-width: 500px){
+@media screen and (max-width: 1000px){
     #t-img{
         width: 100px;
         height: 100px;
@@ -80,7 +129,23 @@ img{
     }
 
     #grd-itm{
-        width: 250px;
-        height: 125px;
+        width: 535px;
+        height: 260px;
     }
-}*/
+
+    #insti-grids{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-auto-columns: auto;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+    }
+
+    #ofertas{
+        background-color: rgb(5, 5, 71);
+        border-radius: 0px;
+        padding: 8px;
+    }
+}
