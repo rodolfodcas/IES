@@ -68,6 +68,30 @@
     color: white;
 }
 
+#botonpre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inscripcion{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+#pasosadmi{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
 @media screen and (max-width: 600px){
     #t-img{
         width: 100px;
@@ -108,6 +132,24 @@
         border-radius: 0px;
         padding: 8px;
     }
+
+    #inscripcion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    
+    #pasosadmi{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -147,5 +189,28 @@
         background-color: rgb(5, 5, 71);
         border-radius: 0px;
         padding: 8px;
+    }
+
+    #inscripcion{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    
+    #pasosadmi{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+
+    #adprocess{
+        width: 400px;
+        height: 400px;
     }
 }
